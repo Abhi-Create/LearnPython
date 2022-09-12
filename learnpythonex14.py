@@ -5,6 +5,7 @@ prompt = '> '
 
 print(f"Hi {user_name}, I'm the {script} script.")
 print("I'd like to ask you a few quesiton.")
+
 print(f"Do you like me {user_name}?")
 likes = input(prompt)
 
@@ -19,3 +20,5 @@ Alright, so you said {likes} about liking me.
 yout live in {lives}. Not sure where that is.
 and you have a {computer} computer. Nice.
 """)
+
+#Output -: #output from command line - type -: python learnpythonex14.py apple 
