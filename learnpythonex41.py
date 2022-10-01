@@ -77,5 +77,5 @@ try:
 
             input("< ")
             print(f"ANSWER: {answer} \n\n")
-except EOFError:             #	Raised when the input() function hits the end-of-file condition.
+except EOFError:             #Raised when the input() function hits the end-of-file condition.
     print("\nBye")
