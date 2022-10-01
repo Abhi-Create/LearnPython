@@ -34,7 +34,8 @@ class Employee(Person):
 
     def __init__(self, name, salary):
         # Employee is-a name
-        super(Employee, self).__init__(name)
+        super(Employee, self).__init__(name) #or # Super().__init__(name)
+        
         # self.salary has-a salary
         self.salary = salary
 
