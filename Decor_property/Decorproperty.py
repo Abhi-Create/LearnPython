@@ -14,8 +14,8 @@ class Student:
         self.name = sent [0]
         self.grade = sent [-1]
 
-stud1 = Student("nia","B")
-stud1.msg = "amulya got grade A"
+stud1 = Student("Prakash","B")
+stud1.msg = "Abhishek got grade A"
 print("name:",stud1.name)
 print("grade:",stud1.grade)
 print(stud1.msg)
