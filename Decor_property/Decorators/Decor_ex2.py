@@ -1,4 +1,4 @@
-
+#Decoratator
 
 def decor(addition):
     def inner():
